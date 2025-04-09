@@ -92,13 +92,13 @@ To keep API keys and Event Hub credentials secure:
 - Set up **Databricks cluster** and install **Event Hub library**.
 - Configure secrets in Databricks from Key Vault.
 - Test the **Weather API** in Databricks.
-- Build ingestion pipeline to **stream data to Event Hub**.
+- Build ingestion pipeline to **stream data to Event Hub**. [](./DATA INGESTION_CODES/DATABRICKS_NOTEBOOKS/complete_code_for_getting_the_weather_data.py)
 
 ---
 
 #### ⚙️ 3. Ingestion Option 2: Azure Functions
 
-- Create a Function to call the Weather API and send data to Event Hub.
+- Create a Function to call the Weather API and send data to Event Hub. [](./DATA INGESTION_CODES/AZURE_FUNCTION/function_app.py)
 - Secure credentials via **Key Vault**.
 - Use this option for **lower cost** and **efficient performance**.
 
