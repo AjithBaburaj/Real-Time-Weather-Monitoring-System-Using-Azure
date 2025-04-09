@@ -62,7 +62,7 @@ To keep API keys and Event Hub credentials secure:
 
 ## 🔗 API Reference
 
-- **Weather API**: [Open-Weather API]([https://www.weatherapi.com/](https://www.weatherapi.com/))
+- **Weather API**: [Open-Weather API]((https://www.weatherapi.com/))
   - Free to use under trial – up to **1 million API calls per month**.
   - Provides **temperature**, **air quality**, **forecast**, and other key weather metrics.
 
