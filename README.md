@@ -11,7 +11,7 @@ This project is an end-to-end **real-time streaming weather monitoring system** 
 
 ## 🧱 Architecture Overview
 
-![Click here if image doesn't load](path/to/your_architecture_diagram.png)
+![Click here if image doesn't load](DIAGROM.png)
 <!-- Replace 'path/to/your_architecture_diagram.png' with the actual image path or GitHub URL -->
 
 **Architecture Flow:**
@@ -62,10 +62,9 @@ To keep API keys and Event Hub credentials secure:
 
 ## 🔗 API Reference
 
-- **Weather API**: [Open-Meteo API](https://open-meteo.com/)
+- **Weather API**: [Open-Meteo API]([https://open-meteo.com/](https://www.weatherapi.com/))
   - A free API to fetch real-time weather data.
   - Provides temperature, air quality, and other key metrics.
-  - No authentication needed for basic usage.
 
 ---
 
