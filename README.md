@@ -104,7 +104,7 @@ To keep API keys and Event Hub credentials secure:
 
 ---
 
-#### 🔄 4. Streaming & Storage
+#### 🔄 4. Event Processing and Loading into KQL DB
 
 - In Power BI (Fabric), create an **Eventhouse** (auto-creates a KQL DB).
 - Use **Event Stream** to connect Event Hub to Eventhouse.
@@ -122,16 +122,6 @@ To keep API keys and Event Hub credentials secure:
 
 #### 📣 6. Real-Time Alerts
 
-- Use **KQL queries** to detect alert conditions:
-  ```kql
-  ['weather-table']
-  | where alerts != '[]'
-  | extend AlertValue = tostring(alerts)
-  | summarize LastTriggered = max(EventProcessedUtcTime) by AlertValue
-  | join kind=leftanti (
-      ['weather-table']
-      | where alerts != '[]'
-      | extend AlertValue = tostring(alerts)
-      | summarize LastTriggered = max(EventProcessedUtcTime) by AlertValue
-      | where LastTriggered < ago(1m)
-  ) on AlertValue
+- Create a query to filter alerts
+- Set up Data Activator to send email notifications for these alerts.
+
