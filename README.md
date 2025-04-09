@@ -112,7 +112,7 @@ To keep API keys and Event Hub credentials secure:
 
 ---
 
-#### 📊 5. Power BI Dashboard
+#### 📊 5. Power BI Dashboard [Dashboard](222852_Weatherreport.pbix)
 
 - Create a Power BI report linked to the KQL DB.
 - Turn on **Automatic Page Refresh** for live updates.
