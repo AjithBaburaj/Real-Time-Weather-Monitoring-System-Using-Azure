@@ -53,7 +53,7 @@ To keep API keys and Event Hub credentials secure:
 | Component          | Performance        | Cost Efficiency     |
 |--------------------|--------------------|---------------------|
 | **Azure Databricks** | High (suitable for larger loads) | Moderate/High cost |
-| **Azure Functions**  | Ideal for smaller tasks | Low cost (pay-per-execution) |
+| **Azure Functions**  | Ideal for smaller tasks | Low cost  |
 
 > **Conclusion:**  
 > Since this project involves small-scale ingestion (weather data), **Azure Functions** is more cost-effective. However, Databricks is also implemented for comparison and scalability testing.
@@ -62,9 +62,10 @@ To keep API keys and Event Hub credentials secure:
 
 ## 🔗 API Reference
 
-- **Weather API**: [Open-Meteo API]([https://open-meteo.com/](https://www.weatherapi.com/))
-  - A free API to fetch real-time weather data.
-  - Provides temperature, air quality, and other key metrics.
+- **Weather API**: [Open-Weather API]([https://www.weatherapi.com/](https://www.weatherapi.com/))
+  - Free to use under trial – up to **1 million API calls per month**.
+  - Provides **temperature**, **air quality**, **forecast**, and other key weather metrics.
+
 
 ---
 
